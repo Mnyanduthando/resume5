@@ -1,0 +1,39 @@
+
+.image img {
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    border: 10px solid black;
+    
+
+}
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+.mild {background-color: bisque;
+    margin: 10px;
+    padding: 20px;
+    line-height: 1cm;
+
+}
+.links {
+    background-color: aqua;
+    margin: 50px;
+    padding: 2opx;
+    
+}
+.heading {
+    font-size: 70px;
+    font-style:inherit;
+
+}
+.header {
+    background-color: bisque;
+}
+
